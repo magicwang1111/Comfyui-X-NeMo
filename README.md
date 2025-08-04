@@ -32,7 +32,7 @@
 
 This repository contains the video generation code of ICLR 2025 paper [X-NeMo](https://openreview.net/pdf?id=ML8FH4s5Ts) and the project [X-Portrait2](https://byteaigc.github.io/X-Portrait2/).
 
-[**Arxiv Paper**](https://openreview.net/pdf?id=ML8FH4s5Ts) | [**Project Page**](https://byteaigc.github.io/X-Portrait2/)
+[**Arxiv Paper**](https://arxiv.org/abs/2507.23143) | [**Project Page**](https://byteaigc.github.io/X-Portrait2/)
 
 ## Installation
 ```shell
