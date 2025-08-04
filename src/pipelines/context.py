@@ -1,7 +1,6 @@
 # *************************************************************************
-# This file may have been modified by Bytedance Inc. (“Bytedance Inc.'s Mo-
-# difications”). All Bytedance Inc.'s Modifications are Copyright (2025) B-
-# ytedance Inc..
+# Copyright (c) 2025 Bytedance Ltd. and/or its affiliates
+# SPDX-License-Identifier: Apache-2.0 
 # *************************************************************************
 from typing import Callable, List, Optional
 

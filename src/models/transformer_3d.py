@@ -1,3 +1,14 @@
+# *************************************************************************
+# Copyright (c) 2025 Bytedance Ltd. and/or its affiliates
+# SPDX-License-Identifier: Apache-2.0 
+#
+# This file has been modified by ByteDance Ltd. and/or its affiliates.
+#
+# Original file was released under AnimateDiff, with the full license text
+# available at https://github.com/guoyww/AnimateDiff/blob/main/LICENSE.txt.
+#
+# This modified file is released under the same license.
+# *************************************************************************
 from dataclasses import dataclass
 from typing import Optional, Dict
 

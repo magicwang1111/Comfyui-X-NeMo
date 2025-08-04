@@ -1,4 +1,15 @@
-# Adapted from https://github.com/magic-research/magic-animate/blob/main/magicanimate/models/mutual_self_attention.py
+# *************************************************************************
+# Copyright 2023 ByteDance and/or its affiliates.
+# Copyright (c) 2025 Bytedance Ltd. and/or its affiliates
+# SPDX-License-Identifier: Apache-2.0 
+#
+# This file has been modified by ByteDance Ltd. and/or its affiliates.
+#
+# Original file was released under magic-animate, with the full license text
+# available at https://github.com/magic-research/magic-animate/blob/main/LICENSE.
+#
+# This modified file is released under the same license.
+# *************************************************************************
 from typing import Any, Dict, Optional
 
 import torch

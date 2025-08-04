@@ -1,4 +1,15 @@
-# Adapted from https://github.com/huggingface/diffusers/blob/main/src/diffusers/models/unet_2d_blocks.py
+# *************************************************************************
+# Copyright 2025 The HuggingFace Team. All rights reserved.
+# Copyright (c) 2025 Bytedance Ltd. and/or its affiliates
+# SPDX-License-Identifier: Apache-2.0 
+#
+# This file has been modified by ByteDance Ltd. and/or its affiliates.
+#
+# Original file was released under Diffusers, with the full license text
+# available at https://github.com/huggingface/diffusers/blob/main/LICENSE.
+#
+# This modified file is released under the same license.
+# *************************************************************************
 from typing import Any, Dict, Optional, Tuple, Union
 
 import numpy as np

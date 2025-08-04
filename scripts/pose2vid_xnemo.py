@@ -1,8 +1,15 @@
 # *************************************************************************
-# This file may have been modified by Bytedance Inc. (“Bytedance Inc.'s Mo-
-# difications”). All Bytedance Inc.'s Modifications are Copyright (2025) B-
-# ytedance Inc..
+# Copyright (c) 2025 Bytedance Ltd. and/or its affiliates
+# SPDX-License-Identifier: Apache-2.0 
+#
+# This file has been modified by ByteDance Ltd. and/or its affiliates.
+#
+# Original file was released under Aniportrait, with the full license text
+# available at https://github.com/Zejun-Yang/AniPortrait/blob/main/LICENSE.
+#
+# This modified file is released under the same license.
 # *************************************************************************
+
 import argparse
 import os
 from datetime import datetime
