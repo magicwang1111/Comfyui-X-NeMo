@@ -60,12 +60,10 @@ This research aims to positively impact the field of Generative AI. Any usage of
 ## 🎓 Citation
 If you find this codebase useful for your research, please use the following entry.
 ```BibTeX
-@inproceedings{
-zhao2025xnemo,
-title={X-NeMo: Expressive Neural Motion Reenactment via Disentangled Latent Attention},
-author={XIAOCHEN ZHAO and Hongyi Xu and Guoxian Song and You Xie and Chenxu Zhang and Xiu Li and Linjie Luo and Jinli Suo and Yebin Liu},
-booktitle={The Thirteenth International Conference on Learning Representations},
-year={2025},
-url={https://openreview.net/forum?id=ML8FH4s5Ts}
+@article{zhao2025x,
+  title={X-NeMo: Expressive neural motion reenactment via disentangled latent attention},
+  author={Zhao, Xiaochen and Xu, Hongyi and Song, Guoxian and Xie, You and Zhang, Chenxu and Li, Xiu and Luo, Linjie and Suo, Jinli and Liu, Yebin},
+  journal={arXiv preprint arXiv:2507.23143},
+  year={2025}
 }
 ```
