@@ -52,6 +52,24 @@ Please download X-NeMo pre-trained model from [here](https://drive.google.com/dr
 bash eval.sh
 ```
 
+## ComfyUI Integration
+
+This repository can be placed inside the `custom_nodes` folder of [ComfyUI](https://github.com/comfyanonymous/ComfyUI) to expose X-NeMo helper nodes.
+
+1. Copy this folder into `ComfyUI/custom_nodes/Comfyui-x-nemo`.
+2. Download the required checkpoints and diffusion backbones into `ComfyUI/models/x-nemo/` so that the directory contains:
+   * `sd-image-variations-diffusers/`
+   * `stable-video-diffusion-img2vid-xt/vae/`
+   * `xnemo_denoising_unet.pth`
+   * `xnemo_reference_unet.pth`
+   * `xnemo_motion_encoder.pth`
+   * `xnemo_temporal_module.pth`
+3. Launch ComfyUI and add an **X-NeMo Load Models** node to select the configuration to cache on the GPU.
+4. Connect the **X-NeMo Load Models** output to an **X-NeMo Pose-to-Video** node. The pose-to-video node accepts a reference image, a driving video tensor (e.g. from the built-in video loader node), and exposes the main inference parameters (resolution, steps, CFG, context length, etc.).
+
+> ℹ️ The Mediapipe BlazeFace model file `blaze_face_short_range.tflite` must stay next to this repository so the node can detect faces.
+
+
 ## License
 The use of the released code and model must strictly adhere to the respective licenses. Our code is released under the Apache License 2.0, and our model is released under the [Creative Commons Attribution-NonCommercial 4.0 International Public License](https://huggingface.co/ByteDance/InfiniteYou/blob/main/LICENSE) for academic research purposes only. 
 
