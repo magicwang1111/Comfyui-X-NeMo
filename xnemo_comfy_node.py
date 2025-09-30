@@ -11,7 +11,7 @@ from omegaconf import OmegaConf
 from PIL import Image
 from scipy.ndimage import gaussian_filter1d
 
-from scripts.vid2pose import extract_bbox_mp
+from .scripts.vid2pose import extract_bbox_mp
 from src.models.motion_encoder.encoder import (
     MotEncoder_withExtra as MotEncoder,
 )
