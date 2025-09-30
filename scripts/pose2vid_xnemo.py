@@ -26,14 +26,14 @@ from omegaconf import OmegaConf
 from PIL import Image
 from torchvision import transforms
 from transformers import CLIPVisionModelWithProjection
-from src.models.unet_2d_condition import UNet2DConditionModel
-from src.models.unet_3d import UNet3DConditionModel
-from src.pipelines.pipeline_pose2vid_motenc_long import Pose2VideoPipeline
-from src.utils.util import save_videos_grid
+from ..src.models.unet_2d_condition import UNet2DConditionModel
+from ..src.models.unet_3d import UNet3DConditionModel
+from ..src.pipelines.pipeline_pose2vid_motenc_long import Pose2VideoPipeline
+from ..src.utils.util import save_videos_grid
 from decord import VideoReader
 from scipy.ndimage import gaussian_filter1d
 
-from src.models.motion_encoder.encoder import MotEncoder_withExtra as MotEncoder
+from ..src.models.motion_encoder.encoder import MotEncoder_withExtra as MotEncoder
 
 
 def check_oob_new(bbox, frame_shape):

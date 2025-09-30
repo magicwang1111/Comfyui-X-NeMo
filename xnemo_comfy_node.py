@@ -12,12 +12,12 @@ from PIL import Image
 from scipy.ndimage import gaussian_filter1d
 
 from .scripts.vid2pose import extract_bbox_mp
-from src.models.motion_encoder.encoder import (
+from .src.models.motion_encoder.encoder import (
     MotEncoder_withExtra as MotEncoder,
 )
-from src.models.unet_2d_condition import UNet2DConditionModel
-from src.models.unet_3d import UNet3DConditionModel
-from src.pipelines.pipeline_pose2vid_motenc_long import Pose2VideoPipeline
+from .src.models.unet_2d_condition import UNet2DConditionModel
+from .src.models.unet_3d import UNet3DConditionModel
+from .src.pipelines.pipeline_pose2vid_motenc_long import Pose2VideoPipeline
 
 try:
     from transformers import CLIPVisionModelWithProjection
