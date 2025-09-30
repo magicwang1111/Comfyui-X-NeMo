@@ -8,10 +8,10 @@ from PIL import Image
 import cv2
 from tqdm import tqdm
 
-from src.utils.util import get_fps, read_frames, save_videos_from_pil
+from ..src.utils.util import get_fps, read_frames, save_videos_from_pil
 import numpy as np
-from src.utils.draw_util import FaceMeshVisualizer
-from src.utils.mp_utils  import LMKExtractor
+from ..src.utils.draw_util import FaceMeshVisualizer
+from ..src.utils.mp_utils  import LMKExtractor
 import mediapipe as mp
 from mediapipe.framework.formats import landmark_pb2
 
